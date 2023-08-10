@@ -16,4 +16,10 @@ $(function () {
             $(this).parent().addClass("active");
         }
     });
+
+    //tabs
+    $(".tab-tit").on("click", function () {
+        $(".tab").removeClass("active");
+        $(this).parent(".tab").addClass("active");
+    });
 });
